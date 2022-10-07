@@ -1,0 +1,38 @@
+#area {
+    position: auto;
+    left: 37%;
+    top: 29%;
+    width: 900px;
+    height: 400px;
+
+}
+
+    #area #formulario {
+        position: absolute;
+        display: block;
+    }
+
+fieldset {
+    width: 900px;
+    height: 400px;
+}
+.box-degrade {
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #0000ff,#ffa500, #ffff00);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+
